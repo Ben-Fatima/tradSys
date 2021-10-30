@@ -1,0 +1,181 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
+    "Droid Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /*background-color: rgb(9, 12, 16);*/
+}
+.background {
+  background-color: rgb(9, 12, 16);
+}
+.redressed {
+  font-family: "Redressed";
+}
+.dancing {
+  font-family: "Dancing Script";
+}
+.hind {
+  font-family: "Hind Madurai";
+}
+.montserrat {
+  font-family: "Montserrat";
+}
+.playfair {
+  font-family: "Playfair Display";
+}
+.narrow {
+  font-family: "PT Sans Narrow";
+}
+.noto {
+  font-family: "Noto Sans JP";
+}
+.pro {
+  font-family: "Source Sans Pro";
+}
+.rajdhani {
+  font-family: "Rajdhani";
+}
+.menu-item {
+  text-decoration: none;
+}
+.menu-item:hover {
+  text-decoration: underline;
+  color: rgb(81, 147, 255);
+  transition: 0.5s;
+}
+.btn {
+  border-color: rgb(224, 172, 0);
+  border-width: 2px;
+  background-color: rgb(224, 172, 0);
+  color: rgb(12, 12, 12);
+}
+.btn:hover {
+  border-color: rgb(170, 134, 16);
+  border-width: 2px;
+  background-color: rgb(170, 134, 16);
+  color: rgb(12, 12, 12);
+  transition: 0.2s;
+}
+.btn2 {
+  background-color: #0d1d40;
+  color: whitesmoke;
+  border-color: #0d1d40;
+  border-width: 2px;
+}
+.btn2:hover {
+  background-color: #050c1d;
+  color: whitesmoke;
+  border-color: #050d1f;
+  border-width: 2px;
+}
+.btn3 {
+  background-color: rgb(81, 147, 255);
+  color: rgb(0, 0, 0);
+  border-color: rgb(81, 147, 255);
+  border-width: 2px;
+}
+.btn3:hover {
+  background-color: rgb(38, 76, 138);
+  color: rgb(0, 0, 0);
+  border-color: rgb(38, 76, 138);
+  border-width: 2px;
+}
+.btn4 {
+  background-color: #273238;
+  color: whitesmoke;
+  border-color: #273238;
+  border-width: 2px;
+}
+.btn4:hover {
+  background-color: #171d20;
+  color: whitesmoke;
+  border-color: #171d20;
+  border-width: 2px;
+}
+.smoke {
+  color: whitesmoke;
+}
+.blue-cl {
+  color: rgb(81, 147, 255);
+}
+.blue-cl2 {
+  color: rgb(25, 53, 98);
+}
+
+.animation {
+  -webkit-animation: spin 4s linear infinite;
+  -moz-animation: spin 4s linear infinite;
+  animation: spin 4s linear infinite;
+}
+.lien:hover {
+  background-color: #273238;
+  color: whitesmoke;
+  border-color: #273238;
+  transition: 0.7;
+}
+td {
+  padding: 0.7rem;
+  text-decoration: underline #0e8067;
+}
+th {
+  color: #0b382e;
+}
+.radio {
+  text-decoration: none;
+}
+.container {
+  padding: 1rem;
+}
+
+.Box {
+  background-color: #0d1117;
+  border: 1px solid #30363d;
+  border-radius: 6px;
+}
+.p-3 {
+  padding: 16px !important;
+}
+.mt-2 {
+  margin-top: 8px !important;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+.font-small {
+  font-size: 16px;
+}
+.font-normal {
+  font-size: 20px;
+}
+.show {
+  display: block;
+}
+.hide {
+  display: none;
+}
+/*----loading----*/
+.lds-dual-ring {
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+}
+.lds-dual-ring:after {
+  content: " ";
+  display: block;
+  width: 64px;
+  height: 64px;
+  margin: 8px;
+  border-radius: 50%;
+  border: 6px solid rgb(100, 137, 241);
+  border-color: rgb(100, 137, 241) transparent rgb(100, 137, 241) transparent;
+  animation: lds-dual-ring 1.2s linear infinite;
+}
+@keyframes lds-dual-ring {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
